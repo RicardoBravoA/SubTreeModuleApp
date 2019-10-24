@@ -1,0 +1,4 @@
+include ':app'
+project(":app").projectDir = file("app")
+//include ':componentModule1:mylibrary'
+//include ':componentModule2:dynamicfeature'

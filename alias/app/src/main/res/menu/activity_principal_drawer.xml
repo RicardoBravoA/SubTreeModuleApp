@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Inicio"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Inicio" />
+        <item
+            android:id="@+id/nav_ubicacion"
+            android:icon="@drawable/ic_place"
+            android:title="Ubicación"
+            />
+        <item
+            android:id="@+id/nav_buscar"
+            android:icon="@drawable/ic_search"
+            android:title="Buscar"
+            />
+
+        <item
+            android:id="@+id/nav_tours"
+            android:icon="@drawable/ic_trayectoria"
+            android:title="Tours" />
+        <item
+            android:id="@+id/nav_favoritos"
+            android:icon="@drawable/ic_favorite"
+            android:title="Favoritos" />
+
+        <item
+            android:id="@+id/nav_configuracion"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Configuración" />
+    </group>
+
+
+
+    <item android:title="Herramientas">
+        <menu>
+            <item
+                android:id="@+id/nav_opiniones"
+                android:icon="@drawable/ic_question"
+                android:title="Opiniones sobre la App" />
+            <item
+                android:id="@+id/nav_ayuda"
+                android:icon="@drawable/ic_help"
+                android:title="Ayuda" />
+            <item
+                android:id="@+id/nav_cerrar_sesion"
+                android:icon="@drawable/ic_exit"
+                android:title="Cerrar sesión" />
+        </menu>
+    </item>
+
+    <item android:title="Información">
+        <menu>
+            <item
+                android:id="@+id/nav_politicas_privacidad"
+                android:title="Políticas de privacidad" />
+            <item
+                android:id="@+id/nav_terminos_condiciones"
+
+                android:title="Términos y condiciones" />
+        </menu>
+    </item>
+
+</menu>

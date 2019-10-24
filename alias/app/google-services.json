@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "776981909008",
+    "firebase_url": "https://apprutatours.firebaseio.com",
+    "project_id": "apprutatours",
+    "storage_bucket": "apprutatours.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:776981909008:android:72155904179e612cca4495",
+        "android_client_info": {
+          "package_name": "com.example.lenovo.apprutatours"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "776981909008-3bgbqn3vhf719ivic43jbg544vkt5rhk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lenovo.apprutatours",
+            "certificate_hash": "72d3c60cc5b5dc9d594c4d930ef0954953798d23"
+          }
+        },
+        {
+          "client_id": "776981909008-mbonq24m0uqhegdn89fie22sh2vv9d2l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuhLn9xQwgARBOd8naM-B5D4RREbcw6Gk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "776981909008-mbonq24m0uqhegdn89fie22sh2vv9d2l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

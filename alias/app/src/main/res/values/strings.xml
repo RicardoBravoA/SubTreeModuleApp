@@ -1,0 +1,171 @@
+<resources>
+    <string name="app_name">Ruta Tours</string>
+    <string name="app_btnGo">INGRESAR</string>
+    <string name="app_btnContinue">CONTINUAR</string>
+    <string name="app_btnLogin">Iniciar Sesión</string>
+    <string name="app_btnAceptar">ACEPTAR</string>
+    <string name="app_version">1.0</string>
+
+
+    <string name="profile_description">Foto de Perfil</string>
+
+    <!-- TITULOS DE MENU -->
+    <string name="title_activity_maps">Ubicación</string>
+    <string name="title_activity_principal"> </string>
+    <string name="title_activity_search">Buscar</string>
+    <string name="title_activity_tours">Tours</string>
+    <string name="title_activity_favorites">Favoritos</string>
+    <string name="title_activity_help">Ayuda</string>
+    <string name="title_activity_settings">Configuración</string>
+    <string name="title_terms_conditions">Términos y condiciones</string>
+    <string name="title_privacy_policies">Politicas de Privacidad</string>
+
+    <string name="facebook_app_id">2145442525687791</string>
+
+    <string name="help_Title">Preguntas Frecuentes</string>
+    <string name="help_1">¿Cómo buscar un museo?</string>
+    <string name="answer_1">Una vez Iniciada Sesión entrar en el item de la lupa, escribir en el text box el nombre de lugar que desea buscar</string>
+    <string name="help_2">¿Cómo acceder a mi ubicación</string>
+    <string name="answer_2">Una vez Iniciada Sesion entrar en el item de la lupa, escribir en el text box el nombre de lugar que desea buscar</string>
+    <string name="help_3">¿Por qué no puedo acceder a ms favoritos?</string>
+    <string name="answer_3">Una vez Iniciada Sesion entrar en el item de la lupa, escribir en el text box el nombre de lugar que desea buscar</string>
+    <string name="help_4">¿Cómo puedo cambiar de cuenta?</string>
+    <string name="answer_4">Una vez Iniciada Sesion entrar en el item de la lupa, escribir en el text box el nombre de lugar que desea buscar</string>
+    <string name="help_5">¿Cómo descargar una imagen?</string>
+    <string name="answer_5">Una vez Iniciada Sesion entrar en el item de la lupa, escribir en el text box el nombre de lugar que desea buscar</string>
+    <string name="help_6">¿Porque no puedo comentar?</string>
+    <string name="answer_6">Una vez Iniciada Sesion entrar en el item de la lupa, escribir en el text box el nombre de lugar que desea buscar</string>
+
+    <!-- ACTIVITY LOGIN -->
+    <string name="login_email">Correo</string>
+    <string name="login_pwd">Contraseña</string>
+    <string name="login_session">Iniciar Sesión</string>
+    <string name="login_register">Registrarse en Ruta Tours</string>
+    <string name="forgot_pwd">Olvidaste Contraseña? Restaurar</string>
+    <string name="Login_with">Iniciar Sesion con</string>
+
+    <!-- recordar contraseña -->
+    <string name="ACT_Password_registerPassword">Restaurar Contraseña</string>
+    <string name="ACT_Password_email">Correo</string>
+
+    <!-- RECUPERAR CONTRASEÑA -->
+    <string name="ACT_Password_Reset">Restaurar Contraseña</string>
+    <string name="ACT_Password_hint_email">Correo</string>
+
+    <!-- REGISTRAR -->
+    <string name="ACT_Register_name">Nombres</string>
+    <string name="ACT_Register_lastName">Apellidos</string>
+    <string name="ACT_Register_email">Correo</string>
+    <string name="ACT_Register_password">Contraseña</string>
+    <string name="ACT_Register_accept">ACEPTAR</string>
+    <string name="ACT_Register_haveAccount">Ya tienes una cuenta?</string>
+
+    <!-- WELCOME -->
+    <string name="ACT_Welcome_description">Conoce y disfruta los lugares turísticos de una manera fácil y divertida...</string>
+    <string name="app_btnContinuar">CONTINUAR</string>
+
+    <!-- HOME -->
+    <string name="location_home">¿Dónde estoy?</string>
+    <string name="text_cat_plazas">Plazas</string>
+    <string name="text_cat_cataratas">Cataratas</string>
+    <string name="text_cat_sitios">Sitios \n Arqueológicos</string>
+    <string name="text_cat_museos">Museos</string>
+    <string name="text_cat_iglesias">Iglesias</string>
+    <string name="text_cat_playas">Playas</string>
+
+    <!-- PROFILE -->
+    <string name="profile_1">   Tour</string>
+    <string name="profile_2">   Favoritos</string>
+    <string name="profile_3">   Escribir Opinión</string>
+    <string name="profile_4">   Opiniones Sobre la App</string>
+    <string name="profile_5"> Cerrar Sesión</string>
+    <string name="profile_6"> Ayuda</string>
+    <string name="profile_7"> Condiciones de Uso</string>
+    <string name="profile_8"> Politicas de privacidad</string>
+
+    <!-- Privacy Policies -->
+    <string name="PrivacyPolicies_title"> Politicas de Privacidad</string>
+    <string name="privacy_content_1"> RutaTours es un servicio en línea que brinda recomendaciones de lugares turisticos.  Para obtener más información sobre RutaTours, consulte “Cómo contactarse con nosotros”</string>
+    <string name="privacy_content_2"> Entendemos que brindar información en línea implica mucha confianza de su parte. Nos tomamos muy en serio su confianza y le damos una prioridad alta para garantizar la seguridad y la confidencialidad de la información personal que nos proporciona cuando visita nuestra app. Antes de enviarnos su información personal, lea atentamente esta Política para obtener información sobre nuestras prácticas de privacidad. Al usar la aplicación de RutaTours(“Aplicación” o “App”) en un teléfono celular, tableta o dispositivo similar (“Dispositivo”) o en relación con otros sitios o servicios, usted acepta las prácticas descritas en el presente.</string>
+    <string name="privacy_content_3"> Qué información recopilamos de usted</string>
+    <string name="privacy_content_4"> Recibimos y almacenamos toda la información que usted ingresa en nuestro Sitio web o que nos suministra de otra manera. Esto incluye información que pueda identificarlo (“información personal”), lo que incluye su nombre y apellido, correo electronico</string>
+    <string name="privacy_content_5"> Cómo utilizamos su información</string>
+    <string name="privacy_content_6"> RutaTours usa la información que recabamos sobre usted con los siguientes fines generales: para el registro y para administrar su cuenta, lo que incluye permitirle acceder y usar nuestra app, para mantener las comunicaciones con usted en general, lo que incluye brindar información sobre RutaTours y las invitaciones desde la Comunidad RutaTours; para permitirnos publicar sus opiniones, para facilitar sus reservaciones de tours; para responder a sus preguntas y comentarios; para medir el interés en nuestros productos, servicios y mejorarlos; para personalizar de otro modo su experiencia con RutaTours, lo que incluye personalizar los anuncios que le mostramos; para solicitarle información, inclusive través de encuestas; para resolver disputas o problemas; para evitar actividades potencialmente prohibidas o ilegales; para hacer cumplir nuestras Condiciones de Uso; y como se describe de otro modo en el punto de recolección de información.</string>
+
+    <!-- Terms Conditions -->
+    <string name="TermsConditions_title"> Terminos y Condiciones</string>
+    <string name="terms_content_1"> Bienvenidos a la aplicación RutaTours. Este Aplicación tiene como único objetivo ayudar a los clientes a recabar información sobre lugares turisticos, publicar opiniones sobre asuntos relacionados con estos y buscar y hacer reservaciones de tours, sin otros fines. Los términos “nosotros”, “nos”, “nuestro” y “RutaTours” hacen referencia a RutaTours, una corporación. El término “usted” hace referencia al cliente que visita la aplicación.</string>
+    <string name="terms_content_2"> Se le ofrece esta aplicación siempre que acepte, sin modificaciones, todos los términos, las condiciones y los avisos establecidos a continuación (conjuntamente, el “Acuerdo”). Al acceder o usar esta aplicación de alguna manera, conviene en estar vinculado por el presente Acuerdo y declara haber leído y comprendido sus términos. Lea el Acuerdo atentamente, ya que contiene información relacionada con sus derechos legales y limitaciones sobre estos derechos, así como también una sección relacionada con las leyes aplicables y la jurisdicción en caso de disputas. Si no acepta todos los términos y condiciones, no use esta aplicación.</string>
+    <string name="terms_content_3"> Uso del Sitio Web</string>
+    <string name="terms_content_4"> Como condición de uso de esta aplicación, usted garantiza que (i) toda la información que proporciona en esta aplicación es verdadera, precisa y completa, (ii) si tiene una cuenta de RutaTours, protegerá su información de la cuenta, y supervisará y se hará completamente responsable de cualquier uso de la cuenta que haga otra persona que no sea usted y (iii) que tiene 13 años de edad o más para registrarse en una cuenta y realizar contribuciones en nuestra aplicación. Ruta Tours no recaba a sabiendas la información de ninguna persona menor de 13 años de edad. Conservamos el derecho, a nuestro exclusivo criterio, de denegar el acceso a cualquier persona a esta aplicación y a los servicios que ofrecemos, en cualquier momento y por cualquier motivo, lo que incluye, entre otros, la infracción de este Acuerdo.</string>
+    <string name="terms_content_5"> Actividades Prohibidas</string>
+    <string name="terms_content_6"> El contenido y la información en esta aplicación (lo que incluye, entre otros, los mensajes, los datos, la información, el texto, la música, los sonidos, las fotografías, los gráficos, los videos, los mapas, los íconos, el software, el código y otros materiales), así como la infraestructura utilizada para brindar dicho contenido e información, es de nuestra propiedad. Usted conviene en no modificar, copiar, distribuir, transmitir, mostrar, realizar, reproducir, publicar, licenciar, crear trabajos derivados de, transferir, vender o revender cualquier información, software, productos o servicios obtenidos de esta aplicación o a través de esta.</string>
+
+    <!-- SETTINGS -->
+    <string name="settings_Title">Configuraciones</string>
+    <string name="settings_language"> Idioma</string>
+    <string name="settings_language_value">Español</string>
+    <string name="settings_coin">Moneda</string>
+    <string name="settings_coin_value">Soles</string>
+    <string name="settings_version">Versión de App</string>
+    <string name="setting_app_version">1.0</string>
+
+    <!-- ACTIVITY WELCOME -->
+    <string name="welcome_mensaje">Conoce y disfruta los lugares turísticos de una manera fácil y divertida ...</string>
+
+    <!-- MENU -->
+    <string name="titleMenuInicio"> Inicio</string>
+    <string name="titleMenuBusqueda"> Buscar</string>
+    <string name="titleMenuUbicacion"> Ubicación</string>
+    <string name="titleMenuPerfil"> Perfil</string>
+    <string name="titleMenuAjustar"> Ajustes</string>
+    <string name="title_activity_maps_location"> Map</string>
+
+    <!-- SEARCH -->
+    <string name="action_search">Buscar...</string>
+    <string name="search_title_name">Nombre del Lugar</string>
+    <string name="search_description_place">El Museo Tumbas Reales del Señor de Sipán, es un museo arqueológico ...</string>
+    <string name="search_verMas_place">Ver más...</string>
+
+    <!-- Settings -->
+
+    <string name="pref_header_general">General</string>
+    <string name="profile_usuario">Nombres y Apellidos</string>
+    <string name="profile_email_usuario">correo@gmail.com</string>
+
+    <string name="title_language_app">Idioma</string>
+    <string-array name="languages_app">
+        <item>Español</item>
+        <item>Inglés</item>
+    </string-array>
+
+    <string name="title_type_coins_app">Moneda</string>
+    <string-array name="type_coins_app">
+        <item>Soles(S/.)</item>
+        <item>Dólares($)</item>
+    </string-array>
+
+    <string name="title_versión_app">Versión</string>
+    <string-array name="version_app">
+        <item>1.00</item>
+    </string-array>
+
+
+    <!--  -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- Register-->
+    <string name="register_name">Nombres</string>
+    <string name="register_last_name">Apellidos</string>
+    <string name="register_email">Correo</string>
+    <string name="register_pwd">Contraseña</string>
+    <string name="register_accept">Aceptar</string>
+    <string name="register_account">Ya tienes una cuenta?</string>
+    <string name="register_session">Iniciar Sesión</string>
+
+
+</resources>
+

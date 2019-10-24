@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".activity.WelcomeActivity"
+    android:orientation="vertical"
+    android:theme="@style/StyledIndicators"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_gravity="center">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imgtextLogo"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            app:srcCompat="@drawable/texto_logo_app" />
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/viewPager"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="20dp"
+            android:theme="@style/AppTheme"
+            android:background="@drawable/borde_slider"/>
+
+        <com.viewpagerindicator.CirclePageIndicator
+            android:id="@+id/indicator"
+            android:layout_width="match_parent"
+            android:layout_height="29dp"
+            android:layout_marginTop="10dp"
+            android:paddingTop="10dp"
+            app:centered="true"
+            app:fillColor="@color/colorAccent"
+            app:pageColor="@color/colorWhite"
+            app:snap="false" />
+
+        <TextView
+            android:id="@+id/textWelcomeMensaje"
+            android:layout_width="wrap_content"
+            android:layout_height="77dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:text="@string/welcome_mensaje"
+            android:textAlignment="center"
+            android:textColor="@color/colorWhite"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btnContinuar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/button_welcome"
+            android:text="@string/app_btnContinue"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            android:theme="@style/AppTheme" />
+
+    </LinearLayout>
+
+</ScrollView>

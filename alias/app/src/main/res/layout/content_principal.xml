@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".activity.PrincipalActivity"
+    tools:showIn="@layout/app_bar_principal"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/slider"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/colorPrimary"
+                android:gravity="center"
+                android:paddingBottom="20dp"
+                android:paddingTop="30dp">
+
+                <ImageView
+                    android:id="@+id/imgVTextLogo"
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:layout_marginTop="0dp"
+                    app:srcCompat="@drawable/texto_logo_app" />
+
+                <LinearLayout
+                    android:id="@+id/llLocation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp">
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:id="@+id/ic_location_home"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_place"/>
+
+                    <TextView
+                        android:id="@+id/text_location_home"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="10dp"
+                        android:text="@string/location_home"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="17sp"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="200dp"
+                    android:layout_height="150dp"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:background="@drawable/slider5">
+
+                    <TextView
+                        android:id="@+id/text_cat_plazas"
+                        android:layout_width="200dp"
+                        android:layout_height="150dp"
+                        android:background="@color/colorPrimaryDarkTransparencia"
+                        android:gravity="center"
+                        android:text="@string/text_cat_plazas"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="5dp"
+                    android:layout_height="150dp"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:background="@color/colorWhite">
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="200dp"
+                    android:layout_height="150dp"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:background="@drawable/slider6">
+
+                    <TextView
+                        android:id="@+id/text_cat_cataratas"
+                        android:layout_width="200dp"
+                        android:layout_height="150dp"
+                        android:text="@string/text_cat_cataratas"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="20sp"
+                        android:gravity="center"
+                        android:background="@color/colorPrimaryDarkTransparencia"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="200dp"
+                    android:layout_height="150dp"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:background="@drawable/slider4">
+
+                    <TextView
+                        android:id="@+id/text_cat_sitio"
+                        android:layout_width="200dp"
+                        android:layout_height="150dp"
+                        android:text="@string/text_cat_sitios"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="20sp"
+                        android:gravity="center"
+                        android:background="@color/colorPrimaryDarkTransparencia"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="5dp"
+                    android:layout_height="150dp"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:background="@color/colorWhite">
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="200dp"
+                    android:layout_height="150dp"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:background="@drawable/slider2">
+
+                    <TextView
+                        android:id="@+id/text_cat_museos"
+                        android:layout_width="200dp"
+                        android:layout_height="150dp"
+                        android:text="@string/text_cat_museos"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="20sp"
+                        android:gravity="center"
+                        android:background="@color/colorPrimaryDarkTransparencia"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="200dp"
+                    android:layout_height="150dp"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:background="@drawable/slider7">
+
+                    <TextView
+                        android:id="@+id/text_cat_iglesias"
+                        android:layout_width="200dp"
+                        android:layout_height="150dp"
+                        android:text="@string/text_cat_iglesias"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="20sp"
+                        android:gravity="center"
+                        android:background="@color/colorPrimaryDarkTransparencia"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="5dp"
+                    android:layout_height="150dp"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:background="@color/colorWhite">
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="200dp"
+                    android:layout_height="150dp"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:background="@drawable/slider1">
+
+                    <TextView
+                        android:id="@+id/text_cat_Playas"
+                        android:layout_width="200dp"
+                        android:layout_height="150dp"
+                        android:text="@string/text_cat_playas"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="20sp"
+                        android:gravity="center"
+                        android:background="@color/colorPrimaryDarkTransparencia"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
