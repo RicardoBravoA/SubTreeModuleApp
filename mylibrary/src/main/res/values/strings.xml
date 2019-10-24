@@ -10,5 +10,5 @@
     <string name="value_hour">hora</string>
     <string name="value_minute">minuto</string>
     <string name="value_second">segundo</string>
-    <string name="finish">Finalizado.</string>
+    <string name="finish">Finalizado</string>
 </resources>
