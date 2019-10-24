@@ -9,6 +9,10 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/componentModule1" />
+            <option value="$PROJECT_DIR$/componentModule1/mylibrary" />
+            <option value="$PROJECT_DIR$/componentModule2" />
+            <option value="$PROJECT_DIR$/componentModule2/dynamicfeature" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
